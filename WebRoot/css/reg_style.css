@@ -1,0 +1,107 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Segoe UI", "Lucida Grande", Helvetica, Arial, "Microsoft YaHei UI Light", FreeSans, Arimo, "Droid Sans", "wenquanyi micro hei", "Hiragino Sans GB", "Hiragino Sans GB W3", FontAwesome, sans-serif;
+}
+body{
+    background-color: #3A8FB7;
+}
+#register{
+    margin: 5em auto 0px;
+    width: 25%;
+}
+div#register h1{
+    color: #fff;
+    font-size: 2.4em;
+    text-align: center;
+}
+div#register h2{
+    color: #3A8FB7;
+    font-size: 1.5em;
+    padding-bottom: 28px;
+    text-align: center;
+}
+#info{
+    background-color: #fff;
+    padding: 2em 0;
+    margin-top: 2em;
+    border-radius: 0.3em;
+	-webkit-border-radius: 0.3em;
+	-o-border-radius: 0.3em;
+	-moz-border-radius: 0.3em;
+	box-shadow: 0px 0px 15px #7d7d7d;
+}
+div#info label{
+    font-size: 18px;
+    margin-left: 20px;
+    text-align: right;
+}
+input[type="text"], input[type="password"], div.textbox select{
+    padding: 3px 0;
+    width: 50%;
+    font-size: 1.1em;
+    margin: 3px 20px 10px;
+    color: #666666;
+    background: #e4e4e4;
+    border: none;
+    font-weight: 400;
+    outline: none;
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -ms-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+    border-radius: 0.2em;
+    -webkit-border-radius: 0.2em;
+    -o-border-radius: 0.2em;
+    -moz-border-radius: 0.2em;
+}
+#button{
+    padding: 10px 0 0;
+	text-align: center;
+}
+.submit{
+    margin-right:11px;
+	background: #3A8FB7;
+	border: none;
+	outline: none;
+	padding:8px 30px;
+	cursor: pointer;
+	color: #FFF;
+	font-size: 0.9em;
+	border-radius: .3em;
+	-webkit-border-radius: .3em;
+	-moz-border-radius: .3em;
+	-o-border-radius: .3em;
+	transition: 0.5s all;
+	-webkit-transition: 0.5s all;
+	-moz-transition: 0.5s all;
+	-o-transition: 0.5s all;
+	font-weight: 600;
+	margin: 20px auto;
+}
+.submit:hover {
+	background: #C5C5C5;
+}
+.copy-right {
+	text-align: center;
+	width: 100%;
+	margin: 10em auto 2em;
+}
+.copy-right p {
+	color: #FFF;
+	font-size: 1em;
+}
+.copy-right p a {
+	font-size: 1em;
+	font-weight: 600;
+	color: #3A8FB7;
+	-webkit-transition: all 0.3s ease-out;
+	-moz-transition: all 0.3s ease-out;
+	-ms-transition: all 0.3s ease-out;
+	-o-transition: all 0.3s ease-out;
+	transition: all 0.3s ease-out;
+}
+.copy-right p a:hover {
+	color: #fff;
+}

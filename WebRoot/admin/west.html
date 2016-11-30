@@ -1,0 +1,38 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN">
+<html>
+  <head>
+    <title>west</title>
+    <meta charset="UTF-8">
+    <script type="text/javascript" src="../js/jquery-easyui-1.4.5/jquery.min.js"></script>
+	<script type="text/javascript" src="../js/jquery-easyui-1.4.5/jquery.easyui.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="../js/jquery-easyui-1.4.5/themes/default/easyui.css">
+	<link rel="stylesheet" type="text/css" href="../js/jsjquery-easyui-1.4.5/demo/demo.css">
+	<link rel="stylesheet" type="text/css" href="../js/jquery-easyui-1.4.5/themes/icon.css">
+	<script type="text/javascript" src="../jquery-easyui-1.4.5/locale/easyui-lang-zh_CN.js"></script>
+    
+	 </head>
+	 <style>
+	 	*{margin:0;}
+	 </style>
+  <body>
+    <div id="west" data-options="region:'west',split:true" title="菜单选项" style="width:200px;height:530px">
+			<div class="easyui-accordion" data-options="fit:true,border:false,scroll:false">
+				<div title="新闻发布" style="padding:10px;">
+					<a href="publish.jsp" target="center">发布新闻</a>
+				</div>
+				<div title="内容管理" data-options="selected:true" style="padding:10px;">
+					<a href="adminlist.jsp?infotype=时政" target="center">时政</a><br>
+					<a href="adminlist.jsp?infotype=娱乐" target="center">娱乐</a><br>
+					<a href="adminlist.jsp?infotype=财经" target="center">财经</a><br>
+					<a href="adminlist.jsp?infotype=汽车" target="center">汽车</a><br>
+					<a href="adminlist.jsp?infotype=体育" target="center">体育</a><br>
+					<a href="adminlist.jsp?infotype=时尚" target="center">时尚</a><br>
+					<a href="adminlist.jsp?infotype=读书" target="center">读书</a>
+				</div>
+				<div title="用户管理" style="padding:10px">
+					<a href="#" target="center">用户详情</a>
+				</div>
+			</div>
+		</div>
+  </body>
+</html>

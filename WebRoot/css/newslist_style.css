@@ -1,0 +1,101 @@
+#newsarea{
+    width: 1000px;
+    margin: 0 auto;
+}
+#newscontent{
+    width: 720px;
+    display: inline-block;
+}
+.article{
+	margin-top: 20px;
+    display: inline-block;
+    width: 610px;
+    vertical-align: top;
+    border-bottom: 1px solid #ccc;
+}
+.article:last-child{
+	border:none;
+}
+.title{
+    display: inline-block;
+    vertical-align: top;
+    margin-bottom: 10px;
+}
+div.title a{
+	text-decoration:none;
+}
+div.title a:link{
+	color:black;
+}
+div.title a:visited{
+	color:black;
+}
+.content{
+    display: block;
+    height: 36px;
+    width: 600px;
+    overflow: hidden;
+    text-overflow:ellipsis; 
+	-o-text-overflow:ellipsis; 
+}
+.publishtime{
+	display: inline-block;
+    margin: 5px 0 10px;
+    font-size: 15px;
+    color: #858585;
+}
+.author{
+	margin-left:20px;
+	display:inline-block;
+	color: #858585;
+}
+
+#newa_recommend{
+    width: 240px;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 40px;
+    margin-left: 30px;
+}
+#newa_recommend h2{
+    margin-bottom: 15px;
+}
+
+#newa_recommend li{
+    margin-bottom: 8px;
+}
+
+
+#nextpage{
+	width:1000px;
+	margin:10px auto;
+	text-align:center;
+	
+}
+#footer{
+    width: 1000px;
+    margin: 40px auto 20px;
+}
+#footer ul{
+    list-style: none;
+    margin: 0 auto;
+    width: 290px;
+}
+#footer li{
+    display: inline-block;
+    width: 80px;
+    padding: 0 5px;
+    font-size: 15px;
+    border-right: solid 1px #cccccc;
+}
+#footer li:last-child{
+    border: none;
+}
+#copyright{
+    color: #fff;
+    width: 50%;
+    margin: 5px auto;
+    font-family: arial;
+    font-size: 12px;
+    text-align: center;
+}
